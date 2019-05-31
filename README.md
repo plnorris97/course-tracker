@@ -12,8 +12,16 @@ URL:
 ## Site Structure
 
 ### Sections
-Courses Taken
-Course Wish List
+Teach Me (search bar) 
+Search for a topic, language or course
+
+#### Courses Taken
+Will use the `course-table` component to show the courses you have taken already
+It will include the `course name`, `categories`, `course site`, `site url`, `notes`
+
+#### Courses To Take
+Will use the `course-table` component to show the courses you wish to take in the future
+It will include the `course name`, `categories`, `course site`, `site url`, `notes`
 
 
 ## Technology Used
