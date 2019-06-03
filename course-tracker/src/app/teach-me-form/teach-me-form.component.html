@@ -1,3 +1,7 @@
-<p>
-  teach-me-form works!
-</p>
+<form>
+  <div class="form-group">
+    <label for="teachMeInput">Teach me something good today!</label>
+    <input type="text" class="form-control-lg" id="teachMeInput" (input)="verifyText($event)" placeholder="What would you like to learn?">
+  </div>
+  <button type="submit" class="btn btn-primary" [disabled]="!allowSearchInput">Go!</button>
+</form>

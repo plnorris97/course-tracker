@@ -1,0 +1,21 @@
+.app-teach-me-form {
+    text-align: center;
+}
+div.form-group {
+    text-align: center;
+}
+label {
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    padding-bottom: 10px;
+    display: grid
+}
+input {
+    width: 350px;
+    text-align: center
+}
+button {
+    display: flex;
+    flex-direction: row
+}

@@ -1,5 +1,9 @@
-#course-table-left {
-    float: right;
+.div {
+    column-count: 2;
+    column-gap: 50px;
+}
+#course-table-right.col-xs-12 {
+    /* float: right; */
     width: 50%;
     margin: 10px;
     padding: 10px;
