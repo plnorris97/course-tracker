@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-// import { AngularFireModule } from '@angular/fire';
-// import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { environment } from '../environments/environment';
 // import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { AppComponent } from './app.component';
@@ -18,11 +19,18 @@ import { TeachMeFormComponent } from './teach-me-form/teach-me-form.component';
   ],
   imports: [
     BrowserModule,
-    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireDatabaseModule,
-    AngularFireAuthModule
+    // AngularFireAuthModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  id: number;
+  title: string;
+  completionDate: Date; 
+  sourceSite: string;
+  category: string;
+  notes: string;
+ }
