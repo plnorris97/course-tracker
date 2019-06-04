@@ -1,0 +1,9 @@
+h4 {
+    margin: 20px;
+    float: right;
+    display: inline-block;
+}
+#navbar {
+    background-color: darkgray;
+    height: 80px;
+}

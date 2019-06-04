@@ -1,0 +1,7 @@
+div {
+    text-align: center;
+}
+#welcome {
+    display: inline-block;
+    margin: 100px;
+}

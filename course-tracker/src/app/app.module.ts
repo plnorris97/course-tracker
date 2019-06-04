@@ -9,14 +9,18 @@ import { AppComponent } from './app.component';
 import { CourseTableComponent } from './course-table/course-table.component';
 import { CourseTableComponent2 } from './course-table-2/course-table-2.component';
 import { TeachMeFormComponent } from './teach-me-form/teach-me-form.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    TopBarComponent,
     CourseTableComponent,
     CourseTableComponent2,
-    TeachMeFormComponent
-  ],
+    TeachMeFormComponent,
+    FooterComponent
+  ],  
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
